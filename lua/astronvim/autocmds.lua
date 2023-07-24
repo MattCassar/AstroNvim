@@ -256,7 +256,7 @@ if is_available "neo-tree.nvim" then
   })
 end
 
-autocmd({ "VimEnter", "ColorScheme" }, {
+autocmd("ColorScheme", {
   desc = "Load custom highlights from user configuration",
   group = augroup("astronvim_highlights", { clear = true }),
   callback = function()
