@@ -267,7 +267,7 @@ autocmd("ColorScheme", {
         end
       end
     end
-    astroevent "ColorScheme"
+    astroevent("ColorScheme", false)
   end,
 })
 
